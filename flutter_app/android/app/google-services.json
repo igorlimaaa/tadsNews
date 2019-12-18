@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "68257184438",
+    "firebase_url": "https://tadsnews-5e5a9.firebaseio.com",
+    "project_id": "tadsnews-5e5a9",
+    "storage_bucket": "tadsnews-5e5a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68257184438:android:5c5eb2b915bf50839d8417",
+        "android_client_info": {
+          "package_name": "igor.almeida.lima.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68257184438-t381ab05tlddgjdagomh1k0ckpih1gft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2OjZvU54AbBI3eIzurtts2hYzqPE8imI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68257184438-t381ab05tlddgjdagomh1k0ckpih1gft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
