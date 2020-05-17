@@ -70,7 +70,7 @@ class CustomDrawer extends StatelessWidget {
               Divider(),
               DrawerTile(Icons.cloud, "Início", pageController, 0),
               DrawerTile(Icons.data_usage, "IFPE - Notícias", pageController, 1),
-              DrawerTile(Icons.ac_unit, "Documentos", pageController, 2),
+              DrawerTile(Icons.picture_as_pdf, "Documentos", pageController, 2),
             ],
           )
         ],

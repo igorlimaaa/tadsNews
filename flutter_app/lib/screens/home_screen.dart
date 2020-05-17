@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_app/configs/notifications.dart';
 import 'package:flutter_app/tabs/documents.dart';
+import 'package:flutter_app/tabs/documents_tab2.dart';
 import 'package:flutter_app/tabs/home_tab.dart';
 import 'package:flutter_app/tabs/site_tab.dart';
 import 'package:flutter_app/widgets/custom_drawer.dart';
@@ -76,9 +77,13 @@ class _HomeScreenState extends State<HomeScreen> {
           body: SiteTab(),
         ),
         Scaffold(
-          body: Documents(),
+          appBar: AppBar(
+            title: Text("Documentos"),
+            centerTitle: true,
+          ),
+          body: DocumentsTab2(),
           drawer: CustomDrawer(pageControler),
-        )
+        ),
       ],
     );
   }
