@@ -3,8 +3,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_app/configs/notifications.dart';
-import 'package:flutter_app/tabs/documents.dart';
-import 'package:flutter_app/tabs/documents_tab2.dart';
+import 'package:flutter_app/tabs/documents_tab.dart';
 import 'package:flutter_app/tabs/home_tab.dart';
 import 'package:flutter_app/tabs/site_tab.dart';
 import 'package:flutter_app/widgets/custom_drawer.dart';
@@ -80,8 +79,9 @@ class _HomeScreenState extends State<HomeScreen> {
           appBar: AppBar(
             title: Text("Documentos"),
             centerTitle: true,
+            backgroundColor: Color.fromARGB(255, 2, 83, 16),
           ),
-          body: DocumentsTab2(),
+          body: DocumentsTab(),
           drawer: CustomDrawer(pageControler),
         ),
       ],
